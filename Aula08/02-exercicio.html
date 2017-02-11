@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../estilo-consolephp.css">
+<style type="text/css">
+	#lNome {
+		position: relative;
+		margin-left: 103px;
+	}
+</style>
+<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<p id="console">Executar_ </p>
+<div id="meu-php">
+	<form method="get" action="02idade.php">
+		<label for="cNome"><span id="lNome">Nome:</span></label> <input type="text" name="nome" id="cNome"><br/>
+		<label for="cNasc">Ano de Nascimento:</label> <input type="number" name="ano" id="cNasc" size="50"><br/>
+		<fieldset>
+			<legend>Sexo</legend>
+			<input type="radio" name="sexo" id="masc" value="homem" checked>
+			<label for="masc">Masculino</label><br/>
+			<input type="radio" name="sexo" id="fem" value="mulher">
+			<label for="fem">Feminino</label>
+		</fieldset><br/>
+		<input type="submit" value="Enviar">
+	</form>
+ </div>
+</body>
+</html>
